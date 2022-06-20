@@ -1,0 +1,284 @@
+main{
+
+}
+main #introduction{
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+main #introduction .wrap{
+
+}
+main #introduction ul{
+
+  display: flex;
+  gap: 15px;
+  text-align: center;
+}
+main #introduction ul li{
+
+  width: 25%;
+  background-color: #eee;
+}
+main #introduction ul li:nth-child(1){
+  background: radial-gradient(#869aa950 10%, #869aa9 100%);
+  background-image: url;
+}
+main #introduction ul li:nth-child(2){
+  background: radial-gradient(#b1c8d050 10%, #b1c8d0 100%);
+}
+main #introduction ul li:nth-child(3){
+  background: radial-gradient(#d3d3d350 10%, #d3d3d3 100%),url(../img/settings.svg);
+  background-position: left,center 27%;
+  background-repeat: no-repeat,no-repeat;
+  background-size: 100%,41%;
+  transition: all 0.5s;
+}
+main #introduction ul li:nth-child(3):hover{
+  background-size:100%,19%;
+}
+main #introduction ul li:nth-child(4){
+  background: radial-gradient(#c5bea450 10%, #c5bea4 100%);
+}
+main #introduction ul li a{
+  display: block;
+  position: relative;
+  font-size: 22px;
+  height: 250px;
+  box-sizing: border-box;
+  padding-top: 170px;
+  transition: all 0.5s;
+}
+main #introduction ul li a:hover{
+  background-color: rgba(0,0,255,0.4);
+  padding-top: 80px;
+  color:#fff;
+  background-size: 20% !important;
+}
+main #introduction ul li:nth-child(1) a{
+  
+  background-image: url(../img/stream.svg);
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  background-size: 42%;
+}
+main #introduction ul li:nth-child(2) a::after{
+  content: "";
+  background-image: url(../img/cloud.svg);
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  background-size: 100%;
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 50px);
+  opacity: 0.6;
+  transition: all 0.5s;
+}
+main #introduction ul li:nth-child(2) a:hover::after{
+  background-size: 48%;
+}
+main #introduction ul li:nth-child(4) a::after{
+  content: "";
+  background-image: url(../img/podcasts.svg);
+  background-repeat: no-repeat;
+  background-position: center 30%;
+  background-size: contain;
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: calc(50% - 50px);
+  opacity: 0.6;
+}
+main #introduction ul li a::before{
+    content:"";
+    background-color: #333;
+    width: 24px;
+    height: 3px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 6px;
+    transition: all 0.5s;
+  }
+main #introduction ul li a:hover::before{
+  transform: translateY(40px);
+  background-color:#fff;
+}
+main #introduction ul li a h3{
+  position:relative;
+  z-index: 1;
+}
+main #introduction ul li a p{
+  
+}
+main #introduction ul li a:hover p{
+  color: #fff;
+  display: block;
+  margin-top: 30px;
+}
+/* 사회 공헌 */
+
+#society{
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#society .wrap{
+
+  background-color: #e6efee;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 252px;
+  background-image: url(../img/main_roll_bg.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  /*! overflow: hidden; */
+}
+#society h2{
+  font-size: 22px;
+  line-height: 1.6;
+  float: left;
+  width: 51%;
+}
+#society h2+p{
+
+  line-height: 1.3;
+  float: left;
+  width: 50%;
+  margin-top: 17px;
+  line-height: 1.5;
+  color: #555;
+}
+#society ul{
+
+  float: right;
+  margin-top: -30px;
+  /*! position: absolute; */
+  /*! top: 20px; */
+  /*! right: 20px; */
+  /*! position: relative; */
+  /*! top: -30px; */
+  /*! transform: translateY(-30px); */
+}
+#society ul li{
+
+}
+#society ul li a{
+
+}
+#society ul li:nth-child(1) a{
+  
+}
+#society ul li:nth-child(1) a::before{
+  content: "";
+  background-image: url(../img/s1.jpg);
+  width: 100%;
+  height: 150px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+#society ul li a h3{
+
+  width: 64%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 10px;
+}
+#society ul li a p{
+
+}
+#society a.more{
+  
+  position: absolute;
+  right: 22px;
+  bottom: 37px;
+  font-size: 0;
+}
+#society a.more::before{
+  content: "+";
+  font-size: 25px;
+  font-weight: bold;
+  color: #666;
+}
+#society a.more:hover::before{
+  color:orange;
+}
+/* 그룹사 소식 */
+#news{
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#news .wrap{
+  
+}
+#news h2{
+  
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+#news ul{
+}
+#news ul li{
+
+}
+#news ul li:nth-child(1){
+  margin-bottom: 70px;
+}
+#news ul li a{
+  padding-left: 53%;
+  display: block;
+  position: relative;
+}
+#news ul li:not(:nth-child(1)) a{
+  padding-left: 0;
+  margin-left: 53%
+}
+#news ul li a:hover>*{
+  
+  background-color: #eee;
+}
+#news ul li:not(:nth-child(1)) a>*{
+/*  1번 자식이 아닌 li들  */
+  font:15px;
+  font-weight: normal;
+  line-height: 1.3;
+  margin-bottom: 0;
+  width: 90%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-left: 50px;
+  color: #666;
+}
+#news ul li:nth-child(1) a::before{
+  content: "";
+  background-image: url(../img/news.jpg);
+  width: 50%;
+  height: 380px;
+  display: block;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+}
+#news ul li a h3{
+  font-size: 17px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+#news ul li a p{
+  line-height: 1.4;
+}
+#news ul li:nth-child(1) a p{
+  height: 67.2px;
+  overflow: hidden;
+  color: #666;
+}
